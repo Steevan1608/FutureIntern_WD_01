@@ -1,0 +1,54 @@
+.card
+{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+}
+.catalog
+{
+    flex:1;
+    display:grid;
+    grid-template-columns: repeat(auto-fill,minmax(350px,1fr));
+    grid-gap: 5px;
+    padding: 5px;
+    border: none;
+    background-color: rgba(248, 245, 245, 0.507);
+}
+.product
+{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    margin: 1rem;
+    background-color:white;
+}
+
+.product img
+{
+    width: 70%;
+    height: 70%;
+    margin:auto;
+
+}
+.product p
+{
+    font-weight: 600;
+    margin: auto;
+    align-items:center;
+}
+
+.product button
+{
+    background-color:goldenrod;
+    color: white;
+    padding: 5px;
+    cursor: pointer;
+    width: 50%;
+    margin: auto;
+    border: 40px;
+    border-radius: 10px;
+}
+.product button:hover{
+    color: #201f1e;
+}
